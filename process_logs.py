@@ -13,11 +13,11 @@ Version History:    v1.0 - Initial Script
 Notes:              Regex Query Execution time was 0 hours, 1 minutes, 26 seconds and 775 milliseconds.
                    !Regex Query Execution time was 0 hours, 0 minutes, 18 seconds and 690 milliseconds. 
 """
-from datetime import datetime
 import os
 import re
 import json
 import glob
+from settings import *
 
 #### STATE FILE ####
 if Use_StateFile:
